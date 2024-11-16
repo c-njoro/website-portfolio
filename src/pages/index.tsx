@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Discover from "@/components/Discover";
 import Ideas from "@/components/Ideas";
 import Landing from "@/components/Landing";
 
@@ -13,6 +14,9 @@ const Home = () => {
       </div>
       <div>
         <Ideas />
+      </div>
+      <div>
+        <Discover />
       </div>
     </div>
   );
