@@ -88,6 +88,36 @@ input:focus {
   outline: none;
 }
 
+/* the background effect of moving wheels */
+.animating-back {
+  @apply w-full h-[calc(20vh)] flex flex-row justify-center items-center absolute opacity-35 rotate-90 lg:rotate-0;
+
+  .wheel {
+    @apply h-[calc(20vh)] w-[calc(20vh)] rounded-full;
+    border: 1px solid #81c7ed;
+  }
+
+  .wheel::after {
+    content: "";
+    width: 5px;
+    height: 5px;
+    background-color: #81c7ed;
+    display: block;
+    border-radius: 50%;
+  }
+
+  .wheel:hover {
+    opacity: 0.8;
+  }
+
+  .wheel:first-of-type {
+    animation: slide 20s infinite linear;
+  }
+  .wheel:last-of-type {
+    animation: slideLeft 20s infinite linear;
+  }
+}
+
 /* animations */
 @keyframes slide {
   0% {

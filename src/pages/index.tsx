@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Landing from "@/components/Landing";
 
 const Home = () => {
@@ -5,6 +6,9 @@ const Home = () => {
     <div className="w-screen h-max min-h-[100(vh)] flex flex-col justify-start items-start">
       <div>
         <Landing />
+      </div>
+      <div>
+        <About />
       </div>
     </div>
   );

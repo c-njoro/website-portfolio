@@ -27,9 +27,9 @@ const Landing = () => {
         <div className="w-full h-max">
           <p className="h-max w-full md:w-1/2 xl:w-1/3 tracking-wide font-thin text-sm sm:text-base">
             A Full-Stack Developer dedicated to creating professional,
-            high-performance websites for businesses. Whether you need an online
-            presence or a custom solution, I’m here to turn your ideas into
-            reality.
+            high-performance websites web apps and mobile apps for businesses.
+            Whether you need an online presence or a custom solution, I’m here
+            to turn your ideas into reality.
           </p>
         </div>
 

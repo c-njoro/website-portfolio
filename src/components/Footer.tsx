@@ -164,6 +164,7 @@ const Footer = () => {
               href="https://github.com/c-njoro"
               target="_blank"
               rel="noopener noreferrer"
+              className="p-2 rounded-full text-black bg-blue-300"
             >
               <FaInstagram />
             </a>
