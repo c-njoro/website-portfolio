@@ -1,0 +1,98 @@
+import { motion } from "framer-motion";
+
+const Landing = () => {
+  return (
+    <div className="w-screen h-screen relative flex flex-col justify-end items-start bg-black">
+      <motion.div
+        initial={{ opacity: 0, y: -250 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{
+          duration: 2,
+          ease: "easeInOut",
+          type: "spring",
+          stiffness: 100,
+        }}
+        className="w-full text-gray-400 h-full pl-5 2xl:pl-72 xl:pl-56 lg:pl-40 md:pl-24  flex flex-col justify-end items-start gap-10 pb-40"
+      >
+        <div className="w-full h-max">
+          <h1 className="capitalize font-thin text-white font-body  tracking-widest text-4xl sm:text-6xl lg:text-7xl">
+            Hello, am <span className="font-bold">Charles</span>.
+          </h1>
+        </div>
+        <div className="w-full h-max">
+          <h1 className="capitalize font-thin text-white font-body  tracking-widest text-4xl sm:text-6xl lg:text-7xl">
+            <span className="font-bold">Software </span>Engineer
+          </h1>
+        </div>
+        <div className="w-full h-max">
+          <p className="h-max w-full md:w-1/2 xl:w-1/3 tracking-wide font-thin text-sm sm:text-base">
+            A Full-Stack Developer dedicated to creating professional,
+            high-performance websites for businesses. Whether you need an online
+            presence or a custom solution, I’m here to turn your ideas into
+            reality.
+          </p>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, x: -100 }}
+          whileInView={{ opacity: 1, x: 0 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            type: "spring",
+            stiffness: 100,
+          }}
+          className="w-full h-max flex flex-row items-center justify-start gap-8"
+        >
+          <button
+            style={{
+              transition: "all 300ms ease-in-out",
+            }}
+            className="bg-gray-500 flex flex-row items-center justify-center gap-5 py-2 px-5 sm:px-7 font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm hover:translate-x-2"
+          >
+            <p className="button-p">What i do</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="icon bg-white sm:size-10 size-7  p-2 text-black rounded-full"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </button>
+
+          <button
+            style={{
+              transition: "all 300ms ease-in-out",
+            }}
+            className=" border-2 border-gray-500 flex flex-row items-center justify-center gap-5 py-2 px-5 sm:px-7 font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm hover:translate-x-2"
+          >
+            <p className="button-p">View works</p>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24"
+              strokeWidth={1.5}
+              stroke="currentColor"
+              className="icon bg-gray-500 sm:size-10 size-7  p-2 text-black rounded-full"
+            >
+              <path
+                strokeLinecap="round"
+                strokeLinejoin="round"
+                d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+              />
+            </svg>
+          </button>
+        </motion.div>
+      </motion.div>
+    </div>
+  );
+};
+
+export default Landing;

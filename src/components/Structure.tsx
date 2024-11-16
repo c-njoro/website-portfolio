@@ -22,8 +22,11 @@ const Structure = ({ children }: any) => {
       <div>
         <Footer />
       </div>
-      <div className="to-top">
-        <button onClick={scrollToTop}>
+      <div className="fixed -right-3 bottom-32 text-white -rotate-90">
+        <button
+          onClick={scrollToTop}
+          className="flex flex-row items-center justify-center gap-3 font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-blue-300"
+        >
           <p>Back to top</p>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -31,7 +34,7 @@ const Structure = ({ children }: any) => {
             viewBox="0 0 24 24"
             strokeWidth={1.5}
             stroke="currentColor"
-            className="icon"
+            className="sm:size-10 size-7  p-2 text-blue-300 rounded-full"
           >
             <path
               strokeLinecap="round"
