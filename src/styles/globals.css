@@ -88,6 +88,37 @@ input:focus {
   outline: none;
 }
 
+.card-section {
+  .card::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: var(--text-blueLight);
+    position: absolute;
+    left: 0;
+    top: 0;
+    transform: translateY(-1px);
+    transition: width 500ms ease-in-out;
+  }
+  .card:hover::before {
+    width: 100%;
+  }
+
+  .card:hover {
+    border-top: none !important;
+
+    .card-p,
+    .card-button {
+      @apply opacity-100 translate-y-0;
+
+      .icon {
+        @apply size-10;
+      }
+    }
+  }
+}
+
 /* the background effect of moving wheels */
 .animating-back {
   @apply w-full h-[calc(20vh)] flex flex-row justify-center items-center absolute opacity-35 rotate-90 lg:rotate-0;

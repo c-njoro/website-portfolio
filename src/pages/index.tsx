@@ -1,4 +1,5 @@
 import About from "@/components/About";
+import Ideas from "@/components/Ideas";
 import Landing from "@/components/Landing";
 
 const Home = () => {
@@ -9,6 +10,9 @@ const Home = () => {
       </div>
       <div>
         <About />
+      </div>
+      <div>
+        <Ideas />
       </div>
     </div>
   );
