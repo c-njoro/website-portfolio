@@ -119,6 +119,38 @@ input:focus {
   }
 }
 
+.main-works-container {
+  .one-image::before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 4px;
+    background-color: pink;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transform: translateY(4px);
+    transition: width 500ms ease-in-out;
+  }
+
+  .one-image:hover::before {
+    width: 100%;
+  }
+
+  .one-image:hover {
+    border-top: none !important;
+
+    .work-name,
+    .work-button {
+      @apply opacity-100 translate-y-0;
+
+      .icon {
+        @apply size-10;
+      }
+    }
+  }
+}
+
 /* the background effect of moving wheels */
 .animating-back {
   @apply w-full h-[calc(20vh)] flex flex-row justify-center items-center absolute opacity-35 rotate-90 lg:rotate-0;
