@@ -1,21 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --text-light: #ffffff;
+  --text-dark: #000000;
+  --text-blueLight: #81c7ed;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.cursor-follower {
+  position: fixed;
+  width: 25px;
+  height: 25px;
+  background-color: rgba(10, 247, 247, 0.342);
+  border-radius: 50%;
+  pointer-events: none;
+  z-index: 9999;
+}
+
+.hide {
+  display: none;
+  transition: all 200ms ease-in-out;
+}
+
+.give-black-bg {
+  background-color: #000000;
+  animation: backgroundChange 500ms ease-in-out;
+}
+
+.unclicked {
+  @apply w-8 h-6 flex flex-col justify-center items-center cursor-pointer relative;
+  border-top: 2px solid var(--text-blueLight);
+}
+
+.unclicked::after {
+  content: "";
+  display: block;
+  background-color: var(--text-blueLight);
+  height: 2px;
+  width: 100%;
+  margin-bottom: 1px;
+}
+
+.unclicked::before {
+  content: "";
+  display: block;
+  position: absolute;
+  bottom: 0;
+  background-color: var(--text-blueLight);
+  height: 2px;
+  width: 80%;
+  left: 0;
+}
+
+.clicked {
+  @apply w-8 h-8 flex flex-col justify-center items-center cursor-pointer relative -rotate-45;
+}
+
+.clicked::after {
+  content: "";
+  display: block;
+  background-color: var(--text-blueLight);
+  height: 2px;
+  width: 100%;
+}
+
+.clicked::before {
+  content: "";
+  display: block;
+  background-color: var(--text-blueLight);
+  height: 2px;
+  width: 100%;
+  transform: rotate(90deg);
+  position: absolute;
+}
+
+input:focus {
+  outline: none;
+}
+
+/* animations */
+@keyframes slide {
+  0% {
+    transform: translateX(0) rotate(0deg);
+    border: 1px solid #81c7ed;
+  }
+  50% {
+    transform: translateX(-40vw) rotate(-180deg);
+    border: 1px solid rgb(236, 65, 65); /* Rotate while moving */
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    border: 1px solid #81c7ed; /* Full rotation when it returns */
   }
 }
 
-body {
-  color: var(--foreground);
-  background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+@keyframes slideSmall {
+  0% {
+    transform: translateX(0) rotate(0deg);
+    border: 1px solid #81c7ed;
+  }
+  50% {
+    transform: translateX(-10vw) rotate(-180deg);
+    border: 1px solid rgb(236, 65, 65); /* Rotate while moving */
+  }
+  100% {
+    transform: translateX(0) rotate(0deg);
+    border: 1px solid #81c7ed; /* Full rotation when it returns */
+  }
+}
+
+@keyframes slideLeft {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(40vw) rotate(360deg); /* Rotate while moving */
+  }
+  100% {
+    transform: translateX(0) rotate(0deg); /* Full rotation when it returns */
+  }
+}
+
+@keyframes slideLeftSmall {
+  0% {
+    transform: translateX(0) rotate(0deg);
+  }
+  50% {
+    transform: translateX(10vw) rotate(360deg); /* Rotate while moving */
+  }
+  100% {
+    transform: translateX(0) rotate(0deg); /* Full rotation when it returns */
+  }
+}
+
+@keyframes opacity {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@keyframes backgroundChange {
+  0% {
+    background-color: transparent;
+  }
+  100% {
+    background-color: #000000;
+  }
+}
+
+@keyframes upAndDown {
+  25% {
+    transform: translateY(-20px) rotate(90deg);
+  }
+
+  0%,
+  50%,
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+
+  75% {
+    transform: translateY(20px) rotate(90deg);
+  }
+}
+
+/* to aminate */
+.menu-container {
+  animation: opacity 500ms ease-in-out;
 }
