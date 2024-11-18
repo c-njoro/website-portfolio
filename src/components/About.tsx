@@ -6,10 +6,7 @@ import { FiGithub } from "react-icons/fi";
 
 const About = () => {
   return (
-    <div
-      className="w-screen min-h-[calc(95vh)] h-max relative flex flex-col justify-center items-center py-12 lg:py-5"
-      style={{ backgroundColor: "rgb(234, 242, 248)" }}
-    >
+    <div className="w-screen min-h-[calc(95vh)] h-max relative flex flex-col justify-center items-center py-12 lg:py-5 bg-slate-200">
       <div className="animating-back">
         <div className="wheel"></div>
         <div className="wheel"></div>
