@@ -41,7 +41,7 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Name of work</p>
+                <p>E-Commerce WebApp</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
@@ -90,7 +90,7 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Name of work</p>
+                <p>POS Restaurant</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
@@ -146,7 +146,7 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Name of work</p>
+                <p>Meditation Mobile App</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
@@ -195,7 +195,7 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Name of work</p>
+                <p>USSD Betting App</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40

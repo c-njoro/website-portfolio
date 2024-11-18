@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { useRouter } from "next/router";
 
 const Landing = () => {
+  const router = useRouter();
   return (
     <div className="w-screen h-screen relative flex flex-col justify-end items-start bg-black">
       <motion.div
@@ -45,6 +47,7 @@ const Landing = () => {
           className="w-full h-max flex flex-row items-center justify-start gap-8"
         >
           <button
+            onClick={() => router.push("/services")}
             style={{
               transition: "all 300ms ease-in-out",
             }}
@@ -73,7 +76,9 @@ const Landing = () => {
             }}
             className=" border-2 border-gray-500 flex flex-row items-center justify-center gap-5 py-2 px-5 sm:px-7 font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm hover:translate-x-2"
           >
-            <p className="button-p">View works</p>
+            <a href="#works" className="button-p">
+              View works
+            </a>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

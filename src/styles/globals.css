@@ -212,7 +212,7 @@ input:focus {
   }
 }
 
-.animating-back::after {
+.animating-back-services::after {
   content: "";
   width: 80%;
   height: 1px;

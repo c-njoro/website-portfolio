@@ -65,7 +65,7 @@ const Header = () => {
             </Link>
             <Link
               className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
-              href="/services"
+              href="/"
             >
               Portfolio
             </Link>
@@ -83,9 +83,9 @@ const Header = () => {
             </Link>
             <Link
               className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
-              href="/services"
+              href="/contact"
             >
-              Other Pages
+              Contact Me
             </Link>
           </div>
 

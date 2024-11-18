@@ -19,7 +19,7 @@ const Home = () => {
       <div>
         <Discover />
       </div>
-      <div>
+      <div id="works">
         <Works />
       </div>
     </div>

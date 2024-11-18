@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+import Link from "next/link";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
@@ -72,36 +73,36 @@ const Footer = () => {
           }}
           className="w-full h-full flex flex-col justify-start items-center gap-5 relative"
         >
-          <a
+          <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="#home"
+            href="/"
           >
             Homepage
-          </a>
-          <a
+          </Link>
+          <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="#portfolio"
+            href="/"
           >
             Portfolio
-          </a>
-          <a
+          </Link>
+          <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="#services"
+            href="/services"
           >
             Services
-          </a>
-          <a
+          </Link>
+          <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="#newsletter"
+            href="/services"
           >
             Newsletter
-          </a>
-          <a
+          </Link>
+          <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="#others"
+            href="/contact"
           >
-            Other pages
-          </a>
+            Contact Me
+          </Link>
         </motion.div>
 
         <motion.div
@@ -173,7 +174,7 @@ const Footer = () => {
           <div className="w-full h-max flex flex-row justify-start items-start">
             <PiCopyrightThin />
             <p className="font-body font-extralight tracking-wide text-sm sm:text-base">
-              Copyright 2024 - Mil.All Rights Reserved.
+              Copyright 2024 - Charles.All Rights Reserved.
             </p>
           </div>
         </div>
