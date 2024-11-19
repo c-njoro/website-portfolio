@@ -219,7 +219,7 @@ const Footer = () => {
             type: "spring",
             stiffness: 100,
           }}
-          className="part"
+          className="part w-full h-full flex flex-col justify-start items-start gap-1"
         >
           <h1 className="font-bold font-body tracking-wide mb-2">Kenya</h1>
           <p className="font-heading tracking-wide font-extralight text-sm sm:text-base">
