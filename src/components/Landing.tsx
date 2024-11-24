@@ -71,14 +71,13 @@ const Landing = () => {
           </button>
 
           <button
+            onClick={() => router.push("/contact")}
             style={{
               transition: "all 300ms ease-in-out",
             }}
             className=" border-2 border-gray-500 flex flex-row items-center justify-center gap-5 py-2 px-5 sm:px-7 font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm hover:translate-x-2"
           >
-            <a href="#works" className="button-p">
-              View works
-            </a>
+            <p className="button-p">Contact Me</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               fill="none"

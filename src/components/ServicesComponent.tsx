@@ -1,7 +1,9 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useRouter } from "next/router";
 
 const ServicesComponent = () => {
+  const router = useRouter();
   return (
     <div className="main-services-component w-screen h-max flex flex-col gap-6 sm:pt-28 pt-3 bg-black text-white">
       <motion.div
@@ -336,7 +338,10 @@ const ServicesComponent = () => {
             </h1>
           </div>
 
-          <button className="flex flex-row items-center justify-center py-3 px-7 gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-black bg-orange-500">
+          <button
+            onClick={() => router.push("/contact")}
+            className="flex flex-row items-center justify-center py-3 px-7 gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-black bg-orange-500"
+          >
             <p>Contact Me Now</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
