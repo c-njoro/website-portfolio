@@ -48,7 +48,7 @@ const Works = () => {
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <button>
+                <a target="blank" href="https://github.com/c-njoro/my-store">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -67,7 +67,7 @@ const Works = () => {
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
 
@@ -97,7 +97,7 @@ const Works = () => {
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <button>
+                <a target="blank" href="https://github.com/c-njoro/Hotel-POS">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -116,7 +116,7 @@ const Works = () => {
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
@@ -153,7 +153,10 @@ const Works = () => {
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <button>
+                <a
+                  target="blank"
+                  href="https://github.com/c-njoro/Meditation-app"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -172,7 +175,7 @@ const Works = () => {
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
 
@@ -195,14 +198,17 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>USSD Betting App</p>
+                <p>Personal Website</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <button>
+                <a
+                  target="blank"
+                  href="https://github.com/c-njoro/website-portfolio"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -221,7 +227,7 @@ const Works = () => {
                       d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                     />
                   </svg>
-                </button>
+                </a>
               </div>
             </div>
           </div>
