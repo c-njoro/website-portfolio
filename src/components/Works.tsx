@@ -28,27 +28,30 @@ const Works = () => {
                 <Image
                   width={900}
                   height={1000}
-                  src="https://images.pexels.com/photos/7172858/pexels-photo-7172858.jpeg"
+                  src="https://images.pexels.com/photos/8470841/pexels-photo-8470841.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
                 ></Image>
               </div>
               <div
-                className="work-name absolute w-full h-max flex flex-row justify-center text-xl items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
+                className="work-name absolute w-full h-max flex flex-row justify-center text-base items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{
                   transition: "all 500ms ease-in-out",
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>E-Commerce WebApp</p>
+                <p>Real Estate Web App</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <a target="blank" href="https://github.com/c-njoro/my-store">
+                <a
+                  target="_blank"
+                  href="https://real-estate-iota-teal.vercel.app"
+                >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -77,14 +80,14 @@ const Works = () => {
                 <Image
                   width={900}
                   height={1000}
-                  src="https://images.pexels.com/photos/669612/pexels-photo-669612.jpeg"
+                  src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
                 ></Image>
               </div>
               <div
-                className="work-name absolute w-full h-max flex flex-row justify-center text-xl items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
+                className="work-name absolute w-full h-max flex flex-row justify-center text-base items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{
                   transition: "all 500ms ease-in-out",
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
@@ -133,30 +136,27 @@ const Works = () => {
                 <Image
                   width={900}
                   height={1000}
-                  src="https://images.pexels.com/photos/95916/pexels-photo-95916.jpeg"
+                  src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
                 ></Image>
               </div>
               <div
-                className="work-name absolute w-full h-max flex flex-row justify-center text-xl items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
+                className="work-name absolute w-full h-max flex flex-row justify-center text-base items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{
                   transition: "all 500ms ease-in-out",
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Meditation Mobile App</p>
+                <p>E commerce web app</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <a
-                  target="blank"
-                  href="https://github.com/c-njoro/Meditation-app"
-                >
+                <a target="blank" href="https://github.com/c-njoro/userend">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -185,14 +185,14 @@ const Works = () => {
                 <Image
                   width={900}
                   height={1000}
-                  src="https://images.pexels.com/photos/590022/pexels-photo-590022.jpeg"
+                  src="https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
                 ></Image>
               </div>
               <div
-                className="work-name absolute w-full h-max flex flex-row justify-center text-xl items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
+                className="work-name absolute w-full h-max flex flex-row justify-center text-base items-center py-1 tracking-wider font-body font-bold uppercase text-black translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{
                   transition: "all 500ms ease-in-out",
                   backgroundColor: "rgba(255, 192, 203, 0.607)",

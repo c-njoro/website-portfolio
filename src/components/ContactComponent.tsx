@@ -89,7 +89,7 @@ const ContactComponent = () => {
                 ></textarea>
               </label>
               <button className="w-max h-max py-2 px-4 bg-slate-300 text-gray-800 rounded-lg uppercase font-body tracking-wider flex flex-row items-center justify-center gap-5">
-                <p>send</p>
+                <p>send mail</p>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
