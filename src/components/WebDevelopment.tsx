@@ -53,8 +53,8 @@ const WebDevelopment = () => {
         className="header w-full h-max flex flex-col justify-center items-center gap-8"
       >
         <h1 className="w-3/4 font-thin font-body md:text-7xl sm:text-6xl text-4xl leading-normal tracking-wide">
-          <span className="font-semibold">Website</span> and <br />{" "}
-          <span className="font-semibold">Web-App</span> development
+          <span className="font-semibold">Web</span> and <br />{" "}
+          <span className="font-semibold">Mobile</span> development
         </h1>
 
         <div className="btn w-3/4">
@@ -208,6 +208,70 @@ const WebDevelopment = () => {
             <li>Full-stack development (MERN stack)</li>
             <li>Real-time features with WebSockets</li>
             <li>Cloud-based solutions with modern deployment pipelines</li>
+          </ul>
+        </motion.div>
+
+        <div className="w-3/4 h-max flex flex-row justify-start items-center">
+          <h2 className="font-light font-heading sm:text-3xl text-2xl tracking-wider md:py-3">
+            Mobile App Development
+          </h2>
+        </div>
+
+        <motion.div
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{
+            duration: 2,
+            ease: "easeInOut",
+            type: "spring",
+            stiffness: 100,
+          }}
+          className="w-3/4 h-max grid grid-cols-1 gap-8 lg:gap-0 lg:grid-cols-2 text-sm sm:text-base"
+        >
+          <div className="w-full h-max flex flex-col justify-start items-start gap-8">
+            <p className="sm:w-4/5 w-full font-body tracking-wide leading-relaxed font-extralight">
+              I design and develop scalable, high-performance mobile
+              applications tailored to user needs. From smooth UI/UX to
+              efficient backend integrations, I ensure a seamless mobile
+              experience for both iOS and Android platforms.
+            </p>
+            <Link
+              target="_blank"
+              href="https://github.com/c-njoro/Meditation-app"
+              className="w-max px-8 py-2 h-max flex flex-row gap-5 justify-start items-center bg-gray-900 rounded-full shadow-lg"
+            >
+              <p className="uppercase text-sm font-semibold font-body">
+                Mobile App Demo
+              </p>
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                fill="none"
+                viewBox="0 0 24 24"
+                strokeWidth={1.5}
+                stroke="currentColor"
+                className="icon bg-white sm:size-9 size-7 p-2 text-orange-500 rounded-full shadow-md"
+                style={{
+                  backgroundColor: "rgba(55, 55, 55, 0.449)",
+                }}
+              >
+                <path
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                  d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
+                />
+              </svg>
+            </Link>
+          </div>
+
+          <ul className="font-body tracking-wide leading-relaxed font-extralight list-disc pl-3">
+            <p className="font-thin uppercase tracking-widest">
+              Mobile App Services
+            </p>
+            <li>Custom iOS and Android applications</li>
+            <li>Integration with native and third-party APIs</li>
+            <li>Cross-platform development with React Native</li>
+            <li>Real-time features and notifications</li>
+            <li>Secure and scalable mobile architectures</li>
           </ul>
         </motion.div>
       </div>

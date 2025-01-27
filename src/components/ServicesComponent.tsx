@@ -212,7 +212,10 @@ const ServicesComponent = () => {
                   <p>smooth</p>
                 </div>
 
-                <button className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500">
+                <button
+                  onClick={() => router.push("/services/web-development")}
+                  className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500"
+                >
                   <p>Read more</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -259,7 +262,10 @@ const ServicesComponent = () => {
                   <p>All systems</p>
                 </div>
 
-                <button className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500">
+                <button
+                  onClick={() => router.push("/services/web-development")}
+                  className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500"
+                >
                   <p>Read more</p>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
