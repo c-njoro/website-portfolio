@@ -2,7 +2,9 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import { FaInstagram, FaLinkedinIn } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
+import { FcSupport } from "react-icons/fc";
 import { FiGithub } from "react-icons/fi";
+import { MdAccessTime } from "react-icons/md";
 
 const About = () => {
   return (
@@ -29,9 +31,9 @@ const About = () => {
               alt="charles image"
               width={700}
               height={700}
-              src="/images/passport.jpeg"
+              src="/images/full.jpeg"
               loading="lazy"
-              className="lg:h-1/2 xl:w-4/5 lg:w-10/12 w-64 h-64 rounded-full lg:rounded-lg object-cover lg:min-h-[calc(60vh)] shadow-lg"
+              className=" xl:w-4/5 lg:w-10/12 w-64 h-64 rounded-full lg:rounded-lg object-cover lg:min-h-[calc(60vh)] shadow-lg"
             ></Image>
           </div>
 
@@ -124,33 +126,34 @@ const About = () => {
               innovative and reliable solutions.
             </p>
           </div>
-          <div className="w-full h-max flex flex-col gap-3 justify-start items-start opacity-70 hover:opacity-100">
-            <div className="w-full h-max flex flex-col justify-center items-start bg-white rounded-lg shadow-lg p-3 gap-3">
-              <div className="w-full h-max">
-                <p className="text-gray-600 font-body relative tracking-wider">
-                  Delivery{" "}
-                  <span className="text-gray-900 absolute right-0">100%</span>
-                </p>
-              </div>
-              <div className="bg-green-400 rounded-full h-2 w-full"></div>
+          <div className="sm:w-max w-full h-max grid grid-span-1 sm:grid-cols-2 place-items-center gap-3">
+            <div className="experience w-full h-max flex flex-col justify-center items-center bg-slate-50 gap-2 shadow-lg opacity-100 hover:opacity-70 p-5 rounded-lg">
+              <p className="font-bold font-body text-orange-500 text-5xl tracking-wide mb-1">
+                5+
+              </p>
+              <p className="font-body capitalize tracking-wider">
+                Years Experience
+              </p>
             </div>
-            <div className="w-full h-max flex flex-col justify-center items-start bg-white rounded-lg shadow-lg p-3 gap-3">
-              <div className="w-full h-max">
-                <p className="text-gray-600 font-body relative">
-                  Quality{" "}
-                  <span className="text-gray-900 absolute right-0">90%</span>
-                </p>
-              </div>
-              <div className="bg-orange-400 rounded-full h-2 w-11/12"></div>
+            <div className="experience w-full h-max flex flex-col justify-center items-center bg-slate-50 gap-2 shadow-lg opacity-100 hover:opacity-70 p-5 rounded-lg">
+              <p className="font-bold font-body text-green-500 text-5xl tracking-wide mb-1">
+                100%
+              </p>
+              <p className="font-body capitalize tracking-wider">
+                Customer satisfaction
+              </p>
             </div>
-            <div className="w-full h-max flex flex-col justify-center items-start bg-white rounded-lg shadow-lg p-3 gap-3">
-              <div className="w-full h-max">
-                <p className="text-gray-600 font-body relative">
-                  Time{" "}
-                  <span className="text-gray-900 absolute right-0">80%</span>
-                </p>
-              </div>
-              <div className="bg-blue-400 rounded-full h-2 w-4/5"></div>
+            <div className="experience w-full h-max flex flex-col justify-center items-center bg-slate-50 gap-2 shadow-lg opacity-100 hover:opacity-70 p-5 rounded-lg">
+              <MdAccessTime className="font-bold font-body text-yellow-500 text-5xl tracking-wide mb-5" />
+              <p className="font-body capitalize tracking-wider">
+                Timely delivery
+              </p>
+            </div>
+            <div className="experience w-full h-max flex flex-col justify-center items-center bg-slate-50 gap-2 shadow-lg opacity-100 hover:opacity-70 p-5 rounded-lg">
+              <FcSupport className="font-bold font-body text-yellow-500 text-5xl tracking-wide mb-5" />
+              <p className="font-body capitalize tracking-wider">
+                Post Service Maintenance
+              </p>
             </div>
           </div>
         </motion.div>

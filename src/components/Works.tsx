@@ -1,5 +1,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
+import Link from "next/link";
 
 const Works = () => {
   return (
@@ -260,11 +261,13 @@ const Works = () => {
             </p>
           </div>
           <div className="w-full h-max">
-            <button
+            <Link
+              href="https://github.com/c-njoro"
+              target="_blank"
               className="info-button  md:min-w-72 min-w-56 h-16 flex flex-row items-center justify-center gap-5 
              font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm shadow-lg bg-pink-200 px-3"
             >
-              <p className="button-p font-bold">Read more</p>
+              <p className="button-p font-bold">Find more</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -283,7 +286,7 @@ const Works = () => {
                   d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3"
                 />
               </svg>
-            </button>
+            </Link>
           </div>
           <div className="w-full h-max">
             {" "}

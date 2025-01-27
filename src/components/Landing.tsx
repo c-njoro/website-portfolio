@@ -4,7 +4,7 @@ import { useRouter } from "next/router";
 const Landing = () => {
   const router = useRouter();
   return (
-    <div className="w-screen h-screen relative flex flex-col justify-end items-start bg-black">
+    <div className="the-landing-page w-screen h-screen relative flex flex-col justify-end items-start bg-black">
       <motion.div
         initial={{ opacity: 0, y: -250 }}
         whileInView={{ opacity: 1, y: 0 }}
@@ -14,7 +14,7 @@ const Landing = () => {
           type: "spring",
           stiffness: 100,
         }}
-        className="w-full text-gray-400 h-full pl-5 2xl:pl-72 xl:pl-56 lg:pl-40 md:pl-24  flex flex-col justify-end items-start gap-10 pb-40"
+        className="w-full text-gray-400 h-full pl-5 2xl:pl-72 xl:pl-56 lg:pl-40 md:pl-24  flex flex-col justify-end items-start gap-10 pb-[calc(15vh)]"
       >
         <div className="w-full h-max">
           <h1 className="capitalize font-thin text-white font-body  tracking-widest text-4xl sm:text-6xl lg:text-7xl">
