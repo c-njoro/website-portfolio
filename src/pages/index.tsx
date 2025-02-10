@@ -9,7 +9,9 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Your Name - Web & Mobile Developer</title>
+        <title>
+          Charles Njoroge -Software Engineer, Web & Mobile Developer
+        </title>
         <meta
           name="description"
           content="Welcome to my portfolio - I create modern web and mobile applications with cutting-edge technologies."

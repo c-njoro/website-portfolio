@@ -5,7 +5,9 @@ const Services = () => {
   return (
     <>
       <Head>
-        <title>Services | Your Name - Web & Mobile Developer</title>
+        <title>
+          Services | Charles Njoroge - Software Engineer, Web & Mobile Developer
+        </title>
         <meta
           name="description"
           content="Professional web and mobile development services including custom website creation and web applications."

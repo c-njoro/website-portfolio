@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://dev-charles.vercel.app
+
+# Sitemaps
+Sitemap: https://dev-charles.vercel.app/sitemap.xml

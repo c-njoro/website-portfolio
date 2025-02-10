@@ -5,7 +5,9 @@ const Contact = () => {
   return (
     <>
       <Head>
-        <title>Contact | Your Name - Web & Mobile Developer</title>
+        <title>
+          Contact | Charles Njoroge - Software Engineer, Web & Mobile Developer
+        </title>
         <meta
           name="description"
           content="Get in touch with me for your web and mobile development projects."
