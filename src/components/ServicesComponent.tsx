@@ -110,7 +110,9 @@ const ServicesComponent = () => {
                 </div>
 
                 <button
-                  onClick={() => router.push("/services/web-development")}
+                  onClick={() =>
+                    router.push("/services/web-and-mobile-development")
+                  }
                   className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500"
                 >
                   <p>Read more</p>
@@ -160,7 +162,9 @@ const ServicesComponent = () => {
                 </div>
 
                 <button
-                  onClick={() => router.push("/services/web-development")}
+                  onClick={() =>
+                    router.push("/services/web-and-mobile-development")
+                  }
                   className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500"
                 >
                   <p>Read more</p>
@@ -213,7 +217,9 @@ const ServicesComponent = () => {
                 </div>
 
                 <button
-                  onClick={() => router.push("/services/web-development")}
+                  onClick={() =>
+                    router.push("/services/web-and-mobile-development")
+                  }
                   className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500"
                 >
                   <p>Read more</p>
@@ -263,7 +269,9 @@ const ServicesComponent = () => {
                 </div>
 
                 <button
-                  onClick={() => router.push("/services/web-development")}
+                  onClick={() =>
+                    router.push("/services/web-and-mobile-development")
+                  }
                   className="flex flex-row items-center justify-start gap-5  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm text-orange-500"
                 >
                   <p>Read more</p>

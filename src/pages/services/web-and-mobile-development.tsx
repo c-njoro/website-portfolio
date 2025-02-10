@@ -1,4 +1,4 @@
-import ServicesComponent from "@/components/ServicesComponent";
+import WebDevelopment from "@/components/WebDevelopment";
 import Head from "next/head";
 
 const Services = () => {
@@ -12,7 +12,7 @@ const Services = () => {
         />
         <meta
           property="og:title"
-          content="Development Services | Charles Njoroge"
+          content="Web and Mobile Development Services | Charles Njoroge"
         />
         <meta
           property="og:description"
@@ -21,7 +21,7 @@ const Services = () => {
       </Head>
       <div className="w-screen h-max min-h-[100(vh)] flex flex-col justify-start items-start">
         <div>
-          <ServicesComponent />
+          <WebDevelopment />
         </div>
       </div>
     </>

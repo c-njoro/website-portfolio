@@ -38,7 +38,7 @@ const WebDevelopment = () => {
         </Link>
         <h4>/</h4>
         <p className="font-body font-thin tracking-wide text-xs sm:text-sm flex flex-col justify-center items-end hover:cursor-not-allowed">
-          Web Development
+          Web and Mobile Development
         </p>
       </motion.div>
       <motion.div
@@ -173,11 +173,11 @@ const WebDevelopment = () => {
             </p>
             <Link
               target="_blank"
-              href="https://real-estate-iota-teal.vercel.app/"
+              href="https://c-techs-online-shop.vercel.app"
               className="w-max px-8 py-2 h-max flex flex-row gap-5 justify-start items-center bg-gray-900 rounded-full shadow-lg"
             >
               <p className="uppercase text-sm font-semibold font-body">
-                Real Estate Web Application
+                E-Commerce Web Application
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
