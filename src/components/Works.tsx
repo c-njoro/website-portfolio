@@ -27,8 +27,8 @@ const Works = () => {
               <div className="w-full h-max">
                 {" "}
                 <Image
-                  width={900}
-                  height={1000}
+                  width={500}
+                  height={700}
                   src="https://images.pexels.com/photos/8470841/pexels-photo-8470841.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
@@ -79,8 +79,8 @@ const Works = () => {
               <div className="w-full h-max">
                 {" "}
                 <Image
-                  width={900}
-                  height={1000}
+                  width={500}
+                  height={700}
                   src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
@@ -135,8 +135,8 @@ const Works = () => {
               <div className="w-full h-max">
                 {" "}
                 <Image
-                  width={900}
-                  height={1000}
+                  width={500}
+                  height={700}
                   src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
@@ -184,8 +184,8 @@ const Works = () => {
               <div className="w-full h-max">
                 {" "}
                 <Image
-                  width={900}
-                  height={1000}
+                  width={500}
+                  height={700}
                   src="https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
