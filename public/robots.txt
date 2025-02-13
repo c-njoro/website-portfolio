@@ -7,3 +7,4 @@ Host: https://dev-charles.vercel.app
 
 # Sitemaps
 Sitemap: https://dev-charles.vercel.app/sitemap.xml
+Sitemap: https://dev-charles.vercel.app/dynamic-sitemap.xml
