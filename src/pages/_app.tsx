@@ -34,10 +34,28 @@ export default function App({ Component, pageProps }: AppProps) {
           property="og:image"
           content="https://dev-charles.vercel.app/images/passport.jpeg"
         />
+        <meta property="og:type" content="website" />
+
+        {/*Twitter cards*/}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta
+          name="twitter:title"
+          content="Charles Njoroge - Software Engineer, Web & Mobile Developer"
+        />
+        <meta
+          name="twitter:description"
+          content="Professional web and mobile developer specializing in creating modern, responsive applications."
+        />
+        <meta
+          name="twitter:image"
+          content="https://dev-charles.vercel.app/images/passport.jpeg"
+        />
+        <meta name="twitter:url" content="https://dev-charles.vercel.app/" />
+        <meta name="twitter:site" content="@njoroUTD" />
 
         {/* Additional Meta Tags */}
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="icon" href="/images/passport.jpeg" />
+        <link rel="icon" href="/favicon.ico" />
       </Head>
       <Structure>
         <Component {...pageProps} />
