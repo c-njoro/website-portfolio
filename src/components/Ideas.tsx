@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
+import { useRouter } from "next/navigation";
 
 const Ideas = () => {
+  const router = useRouter();
   return (
     <div className="w-screen md:h-[calc(90vh)] h-max relative flex flex-col justify-between items-center text-white pt-8 gap-16 bg-black">
       <div className="w-full h-[calc(10vh)] flex flex-row justify-end items-end gap-8">
@@ -58,7 +60,10 @@ const Ideas = () => {
           className="  h-max flex flex-col-reverse sm:flex-row-reverse justify-center items-center sm:gap-12 gap-5"
         >
           <div className="w-full h-max">
-            <button className="w-72 h-16 flex flex-row justify-around items-center bg-blue-300 rounded-full ">
+            <button
+              className="w-72 h-16 flex flex-row justify-around items-center bg-blue-300 rounded-full "
+              onClick={() => router.push("/services")}
+            >
               <p>What i do</p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -108,7 +113,7 @@ const Ideas = () => {
                 style={{ transition: "all 500ms ease-in-out" }}
               >
                 Our team of agency is a group of professionals focused on
-                helping your brand grow{" "}
+                helping your brand grow.
               </p>
             </div>
             <div className="w-full h-max">
@@ -139,7 +144,7 @@ const Ideas = () => {
           <div className="card w-full h-max border-l  border-gray-800 grid grid-cols-1 gap-6 py-10 px-3 relative border-t md:border-t-0">
             <div className="w-full h-max">
               <h1 className="font-heading font-semibold text-lg capitalize text-white w-full h-12">
-                Branding and Identity Design
+                Web Design & Development
               </h1>
             </div>
             <div className="w-full h-max">
@@ -147,8 +152,8 @@ const Ideas = () => {
                 className="card-p w-full h-max min-h-28 pt-3 font-body font-light text-gray-400 translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                Our team of agency is a group of professionals focused on
-                helping your brand grow{" "}
+                I craft stunning, user-friendly websites that enhance your
+                brand&apos;s digital presence.
               </p>
             </div>
             <div className="w-full h-max">
@@ -179,7 +184,7 @@ const Ideas = () => {
           <div className="card w-full h-max border-l  border-gray-800 grid grid-cols-1 gap-6 py-10 px-3 relative border-t md:border-t-0">
             <div className="w-full h-max">
               <h1 className="font-heading font-semibold text-lg capitalize text-white w-full h-12">
-                Branding and Identity Design
+                SEO & Digital Marketing
               </h1>
             </div>
             <div className="w-full h-max">
@@ -187,8 +192,8 @@ const Ideas = () => {
                 className="card-p w-full h-max min-h-28 pt-3 font-body font-light text-gray-400 translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                Our team of agency is a group of professionals focused on
-                helping your brand grow{" "}
+                Boost your online visibility and attract more customers with our
+                expert marketing strategies.
               </p>
             </div>
             <div className="w-full h-max">
@@ -219,7 +224,7 @@ const Ideas = () => {
           <div className="card w-full h-max border-l  border-gray-800 grid grid-cols-1 gap-6 py-10 px-3 relative border-t md:border-t-0">
             <div className="w-full h-max">
               <h1 className="font-heading font-semibold text-lg capitalize text-white w-full h-12">
-                Branding and Identity Design
+                Content Creation & Strategy
               </h1>
             </div>
             <div className="w-full h-max">
@@ -227,8 +232,8 @@ const Ideas = () => {
                 className="card-p w-full h-max min-h-28 pt-3 font-body font-light text-gray-400 translate-y-0 opacity-100 md:translate-y-6 md:opacity-0"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                Our team of agency is a group of professionals focused on
-                helping your brand grow{" "}
+                Engage your audience with high-quality, compelling content
+                tailored to your brand.
               </p>
             </div>
             <div className="w-full h-max">
