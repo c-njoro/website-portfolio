@@ -116,14 +116,14 @@ const About = () => {
           </div>
           <div className="w-full h-max">
             <p className="font-heading tracking-wide font-light text-gray-700 flex flex-row justify-start  w-full lg:w-3/4 leading-relaxed lg:text-base text-sm">
-              I am an experienced full-stack developer with a proven track
-              record of delivering high-quality, scalable solutions tailored to
-              meet business needs. I specialize in creating robust websites and
-              web applications that provide seamless user experiences and drive
-              efficiency. Whether you need a dynamic front-end or a powerful
-              back-end, I bring a results-driven approach to every project,
-              ensuring that your business achieves its digital goals with
-              innovative and reliable solutions.
+              I am an experienced full-stack web and mobile developer with a
+              proven track record of delivering high-quality, scalable solutions
+              tailored to meet business needs. I specialize in creating robust
+              websites and web applications that provide seamless user
+              experiences and drive efficiency. Whether you need a dynamic
+              front-end or a powerful back-end, I bring a results-driven
+              approach to every project, ensuring that your business achieves
+              its digital goals with innovative and reliable solutions.
             </p>
           </div>
           <div className="sm:w-max w-full h-max grid grid-span-1 sm:grid-cols-2 place-items-center gap-3">
