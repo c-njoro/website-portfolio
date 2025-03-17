@@ -21,7 +21,7 @@ export default function Document() {
               jobTitle: "Software Engineer, Web & Mobile Developer",
               description:
                 "Professional web and mobile developer specializing in modern applications development using MERN, mongodb, react, node and express and next",
-              image: "https://dev-charles.vercel.app/images/passport.jpeg",
+              image: "https://dev-charles.vercel.app/images/charles.jpeg",
             }),
           }}
         />

@@ -60,7 +60,7 @@ const Discover = () => {
               <Image
                 width={400}
                 height={400}
-                src="/images/passport.jpeg"
+                src="/images/charles.jpeg"
                 loading="lazy"
                 className="image w-24 h-24 object-cover rounded-full shadow-md relative"
                 alt="image of the developer"
