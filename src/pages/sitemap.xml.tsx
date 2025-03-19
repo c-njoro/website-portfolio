@@ -9,6 +9,7 @@ export const getServerSideProps: GetServerSideProps = async ({ res }) => {
     "https://dev-charles.vercel.app/services/web-and-mobile-development",
     "https://dev-charles.vercel.app/services",
     "https://dev-charles.vercel.app/contact",
+    "https://dev-charles.vercel.app/works",
     // Add all your pages here
   ];
 

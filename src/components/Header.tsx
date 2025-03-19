@@ -65,27 +65,27 @@ const Header = () => {
             </Link>
             <Link
               className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
-              href="/"
+              href="/works"
             >
-              Portfolio
+              Projects
             </Link>
             <Link
               className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
               href="/services"
             >
-              Services
-            </Link>
-            <Link
-              className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
-              href="/services"
-            >
-              Newsletter
+              Services Offered
             </Link>
             <Link
               className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
               href="/contact"
             >
               Contact Me
+            </Link>
+            <Link
+              className="font-body font-semibold text-xl tracking-wide hover:text-orange-300 hover:translate-x-3 hover:cursor-pointer"
+              href="/services"
+            >
+              Newsletter
             </Link>
           </div>
 
