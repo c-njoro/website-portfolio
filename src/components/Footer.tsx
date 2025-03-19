@@ -81,27 +81,27 @@ const Footer = () => {
           </Link>
           <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="/"
+            href="/works"
           >
-            Portfolio
+            Projects
           </Link>
           <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
             href="/services"
           >
-            Services
-          </Link>
-          <Link
-            className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
-            href="/services"
-          >
-            Newsletter
+            Services Offered
           </Link>
           <Link
             className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
             href="/contact"
           >
             Contact Me
+          </Link>
+          <Link
+            className="w-full h-max font-body sm:text-xl text-base font-bold tracking-wide hover:text-orange-300 hover:translate-x-3"
+            href="/services"
+          >
+            Newsletter
           </Link>
         </motion.div>
 
