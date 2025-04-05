@@ -1,40 +1,105 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/pages/api-reference/create-next-app).
+# Website Portfolio
 
-## Getting Started
+This is a personal portfolio website designed to showcase my skills, projects, and professional experience. Built with modern web technologies, it offers visitors an interactive and informative experience.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Responsive Design**: Optimized for various devices and screen sizes.
+- **Project Showcase**: Highlights selected projects with descriptions and links.
+- **About Section**: Provides an overview of my professional background and skills.
+- **Contact Form**: Enables visitors to get in touch directly through the website.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation and Setup
 
-You can start editing the page by modifying `pages/index.tsx`. The page auto-updates as you edit the file.
+To set up and run this project locally:
 
-[API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.ts`.
+1. **Clone the repository**:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/pages/building-your-application/routing/api-routes) instead of React pages.
+   ```bash
+   git clone https://github.com/c-njoro/website-portfolio.git
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/pages/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+2. **Navigate to the project directory**:
 
-## Learn More
+   ```bash
+   cd website-portfolio
+   ```
 
-To learn more about Next.js, take a look at the following resources:
+3. **Install dependencies**:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn-pages-router) - an interactive Next.js tutorial.
+   ```bash
+   npm install
+   ```
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+4. **Start the development server**:
 
-## Deploy on Vercel
+   ```bash
+   npm run dev
+   ```
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+   The website should now be running at `http://localhost:3000`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/pages/building-your-application/deploying) for more details.
+## Usage
+
+After setting up the project:
+
+- **Development**: Make changes to the source files in the `src` directory. The development server supports hot reloading, so changes will reflect immediately.
+- **Building for Production**:
+
+  ```bash
+  npm run build
+  ```
+
+  This will generate an optimized production build in the `.next` directory.
+
+- **Running in Production**:
+
+  ```bash
+  npm run start
+  ```
+
+  This starts the application in production mode.
+
+## Technologies Used
+
+- **Next.js**: React framework for server-side rendering and static site generation.
+- **Tailwind CSS**: Utility-first CSS framework for rapid UI development.
+- **TypeScript**: Typed superset of JavaScript for enhanced code quality and maintainability.
+
+## Contributing
+
+Contributions are welcome! To contribute:
+
+1. **Fork the repository**.
+2. **Create a new branch** for your feature or bugfix:
+
+   ```bash
+   git checkout -b feature-name
+   ```
+
+3. **Make your changes** and commit them:
+
+   ```bash
+   git commit -m "Description of changes"
+   ```
+
+4. **Push to your fork**:
+
+   ```bash
+   git push origin feature-name
+   ```
+
+5. **Submit a pull request** detailing your changes.
+
+## License
+
+This project is licensed under the [MIT License](LICENSE).
+
+## Author
+
+**Charles Njoro**
+
+- **GitHub**: [c-njoro](https://github.com/c-njoro)
+- **Portfolio**: [dev-charles.vercel.app](https://dev-charles.vercel.app)
+- **LinkedIn**: [Charles Njoro](https://ke.linkedin.com/in/charles-njoro-64b392244)
+
