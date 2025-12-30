@@ -1,11 +1,36 @@
 import { motion } from "framer-motion";
 import Link from "next/link";
+import { useState } from "react";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FaInstagram, FaXTwitter } from "react-icons/fa6";
 import { FiGithub } from "react-icons/fi";
 import { PiCopyrightThin } from "react-icons/pi";
 
 const Footer = () => {
+  const [typedEmail, setTypedEmail] = useState<string>("");
+
+  const subscribe = () => {
+    if (typedEmail.length < 1) {
+      alert("Please enter an email to suscribe");
+      return;
+    }
+
+    if (!typedEmail.includes("@")) {
+      alert("Invalid email");
+      return;
+    }
+
+    if (!typedEmail.includes(".com")) {
+      alert("Invalid email");
+      return;
+    }
+
+    alert(
+      "Thankyou for subscribing. You will now receive updates about my website."
+    );
+    setTypedEmail("");
+  };
+
   return (
     <div className="w-screen  h-max bg-black text-white flex flex-col pt-24 pb-10 justify-center items-center gap-12">
       <div className="sm:w-2/3 w-full h-max grid lg:grid-cols-4 grid-cols-1 place-items-center gap-6 px-3 sm:px-0">
@@ -39,10 +64,18 @@ const Footer = () => {
                 type="email"
                 name="email"
                 id="email"
+                value={typedEmail}
+                onChange={(e) => {
+                  setTypedEmail(e.target.value);
+                  console.log(typedEmail);
+                }}
                 placeholder="Enter your email to register..."
                 className="w-full h-10 pl-5 rounded-full bg-blue-100 text-black font-body font-extralight tracking-wide text-sm sm:text-base"
               />
-              <button className="flex flex-row items-center justify-center  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm absolute right-0">
+              <button
+                className="flex flex-row items-center justify-center  font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm absolute right-0"
+                onClick={subscribe}
+              >
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"

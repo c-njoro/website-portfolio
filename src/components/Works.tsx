@@ -263,7 +263,6 @@ const Works = () => {
           <div className="w-full h-max">
             <Link
               href="/works"
-              target="_blank"
               className="info-button  md:min-w-72 min-w-56 h-16 flex flex-row items-center justify-center gap-5 
              font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm shadow-lg bg-pink-200 px-3"
             >
