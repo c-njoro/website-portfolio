@@ -30,8 +30,8 @@ const Home = () => {
         <div>
           <Landing />
         </div>
-        <div>
-          <About />
+        <div id="works">
+          <Works />
         </div>
         <div>
           <Ideas />
@@ -39,9 +39,12 @@ const Home = () => {
         <div>
           <Discover />
         </div>
-        <div id="works">
-          <Works />
+        <div>
+          <About />
         </div>
+        
+        
+        
       </div>
     </>
   );

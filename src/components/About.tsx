@@ -38,9 +38,12 @@ const About = () => {
             <p className="font-heading tracking-wide text-gray-700 leading-relaxed text-base lg:text-lg">
               I am an experienced full-stack web and mobile developer with a
               proven track record of delivering high-quality, scalable solutions
-              tailored to meet business needs. I specialize in creating robust
-              websites and web applications that provide seamless user
-              experiences and drive efficiency.
+              tailored to meet business needs. Beyond websites and web apps, I
+              build and operate full production platforms — from ticketing and
+              logistics systems to a multi-tenant ISP billing and network
+              management platform running live infrastructure — handling
+              everything from the database and backend to the UI customers
+              actually use.
             </p>
           </div>
 

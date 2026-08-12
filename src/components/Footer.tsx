@@ -207,7 +207,7 @@ const Footer = () => {
           <div className="w-full h-max flex flex-row justify-start items-start">
             <PiCopyrightThin />
             <p className="font-body font-extralight tracking-wide text-sm sm:text-base">
-              Copyright 2024 - Charles.All Rights Reserved.
+              Copyright 2026 - Charles.All Rights Reserved.
             </p>
           </div>
         </div>

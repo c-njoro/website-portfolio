@@ -109,11 +109,11 @@ const WebDevelopment = () => {
             </p>
             <Link
               target="_blank"
-              href="https://real-estate-iota-teal.vercel.app/"
+              href="https://pro-haul-logistics.vercel.app/"
               className="w-max px-8 py-2 h-max flex flex-row gap-5 justify-start items-center bg-gray-900 rounded-full shadow-lg"
             >
               <p className="uppercase text-sm font-semibold font-body">
-                Real Estate Web Application
+                Kenya ProHaul Logistics
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -173,11 +173,11 @@ const WebDevelopment = () => {
             </p>
             <Link
               target="_blank"
-              href="https://c-techs-online-shop.vercel.app"
+              href="https://tixflow-smoky.vercel.app"
               className="w-max px-8 py-2 h-max flex flex-row gap-5 justify-start items-center bg-gray-900 rounded-full shadow-lg"
             >
               <p className="uppercase text-sm font-semibold font-body">
-                E-Commerce Web Application
+                Tixflow Ticketing Platform
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
@@ -237,11 +237,11 @@ const WebDevelopment = () => {
             </p>
             <Link
               target="_blank"
-              href="https://github.com/c-njoro/Meditation-app"
+              href="https://fleet-tracking-eight.vercel.app"
               className="w-max px-8 py-2 h-max flex flex-row gap-5 justify-start items-center bg-gray-900 rounded-full shadow-lg"
             >
               <p className="uppercase text-sm font-semibold font-body">
-                Mobile App Demo
+                Fleet Tracking (Dashboard + Mobile)
               </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

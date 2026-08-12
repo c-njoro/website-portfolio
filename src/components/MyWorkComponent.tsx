@@ -1,118 +1,101 @@
 import { useState } from "react";
 
 const ProjectsShowcase = () => {
-  // Sample projects data - replace with your own projects
   const [projects, setProjects] = useState([
     {
       id: 1,
-      title: "E-Commerce Web Platform",
+      title: "Tixflow — Event Ticketing & Door Check-In",
       description:
-        "A full-stack e-commerce solution built with MERN stack featuring user authentication, product management, cart functionality, and payment integration.",
+        "A ticketing platform for event organizers: branded event storefronts, flexible pricing tiers, QR-based door check-in, scanner-only staff accounts, a real-time sales dashboard, and payouts that go straight to the organizer's own account — no monthly fee, just a small percentage per ticket sold.",
       technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Redux",
-        "Stripe API",
         "Next.js",
-        "Tailwind CSS",
-        "Javascript",
-        "Typescript",
-      ],
-      image: "/images/c-techs.png", // Replace with your project image
-      liveUrl: "https://c-techs-online-shop.vercel.app",
-      githubUrl: "https://github.com/c-njoro/UserEnd",
-      featured: true,
-    },
-    {
-      id: 1,
-      title: "E-Commerce Mobile App",
-      description:
-        "A full-stack e-commerce solution built with MERN stack featuring user authentication, product management, cart functionality, and payment integration.",
-      technologies: [
         "React",
+        "Typescript",
         "Node.js",
         "Express",
         "MongoDB",
-        "Redux",
-        "Stripe API",
-        "React Native",
-        "Expo",
-        "React Navigation",
-        "Redux Thunk",
-
-        "Typescript",
+        "Payments API",
+        "Tailwind CSS",
       ],
       image:
-        "https://images.pexels.com/photos/6331236/pexels-photo-6331236.jpeg", // Replace with your project image
-      liveUrl: "https://project1.com",
-      githubUrl: "https://github.com/c-njoro/comerce-mobile",
+        "/images/projects/tixflow.png",
+      liveUrl: "https://tixflow-smoky.vercel.app",
+      githubUrl: "",
       featured: true,
     },
     {
       id: 2,
-      title: "Real Estate Listing App",
+      title: "eazyBill — Multi-Tenant ISP Billing Platform",
       description:
-        "A mobile-responsive web application for property listings with advanced search filters, user profiles, and appointment scheduling.",
+        "A multi-tenant SaaS version of the ISP management platform I built and run in production for my own internet service provider, repackaged so other ISPs can run their subscriber billing, PPPoE/hotspot RADIUS authentication, and network operations on it as tenants, with data isolated across a shared MongoDB and FreeRADIUS instance.",
       technologies: [
         "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-
         "Typescript",
-        "Google Maps API",
-        "Next.js",
-        "Tailwind CSS",
-        "JWT",
-        "React Admin",
+        "Node.js",
+        "MongoDB",
+        "FreeRADIUS",
+        "MikroTik RouterOS API",
+        "Docker",
       ],
       image:
-        "https://images.pexels.com/photos/8470841/pexels-photo-8470841.jpeg", // Replace with your project image
-      liveUrl: "https://real-estate-iota-teal.vercel.app",
-      githubUrl: "https://github.com/c-njoro/real-estate",
+        "/images/projects/eazybill.png",
+      liveUrl: "https://eazy-bill-demo.vercel.app",
+      githubUrl: "",
       featured: true,
     },
     {
       id: 3,
-      title: "Individual or Business Portfolio",
+      title: "Fleet Tracking Dashboard",
       description:
-        "A responsive website for displaying personal or business profile and works to tell customers more about the services offered.",
+        "A live fleet and field-technician tracking dashboard paired with a companion mobile app. Technician locations, movement, and speed stream in over a live connection, with shift management so operators can see who's on the road in real time.",
       technologies: [
         "React",
-        "Next.js",
-        "Vercel",
-        "Tailwind CSS",
-        "JWT",
         "Typescript",
+        "Node.js",
+        "Real-time / WebSockets",
+        "MongoDB",
+        "Mobile App",
       ],
       image:
-        "https://images.pexels.com/photos/7163361/pexels-photo-7163361.jpeg", // Replace with your project image
-      liveUrl: "https://dev-charles.vercel.app",
-      githubUrl: "https://github.com/c-njoro/website-portfolio",
-      featured: false,
+        "/images/projects/fleet-tracking.png",
+      liveUrl: "https://fleet-tracking-eight.vercel.app",
+      githubUrl: "",
+      featured: true,
     },
     {
       id: 4,
-      title: "SEO Analytics Dashboard",
+      title: "FundiConnect — Skilled Trades Marketplace",
       description:
-        "A comprehensive SEO analytics tool that tracks website performance, keyword rankings, and provides optimization recommendations.",
+        "A marketplace connecting people who need home-service work done with vetted local tradespeople (\"fundis\") — plumbers, electricians, carpenters, and more. Customers post a job and location and get competitive quotes from qualified fundis nearby; fundis get a steady way to find and manage new work.",
       technologies: [
-        "React",
-        "Node.js",
-        "Express",
-        "MongoDB",
-        "Chart.js",
-        "Google Analytics API",
         "Next.js",
-        "Tailwind CSS",
+        "React",
         "Typescript",
+        "Node.js",
+        "MongoDB",
+        "Tailwind CSS",
       ],
       image:
-        "https://images.pexels.com/photos/5717758/pexels-photo-5717758.jpeg", // Replace with your project image
-      liveUrl: "https://c-techs-online-shop.vercel.app",
-      githubUrl: "https://github.com/c-njoro/UserEnd",
+        "/images/projects/fundiconnect.png",
+      liveUrl: "https://fundiconnect-seven.vercel.app",
+      githubUrl: "",
+      featured: true,
+    },
+    {
+      id: 5,
+      title: "Kenya ProHaul Logistics",
+      description:
+        "A full business website for a Kenyan trucking and logistics company — fleet showcase by vehicle type, services broken down by cargo type, an interactive quote calculator, shipment tracking, and a team and contact section, built to give a transport operator a credible, professional online presence.",
+      technologies: [
+        "Next.js",
+        "React",
+        "Typescript",
+        "Tailwind CSS",
+      ],
+      image:
+        "/images/projects/prohaul.png",
+      liveUrl: "https://pro-haul-logistics.vercel.app",
+      githubUrl: "",
       featured: true,
     },
   ]);
@@ -247,14 +230,16 @@ const ProjectsShowcase = () => {
                   >
                     Live Demo
                   </a>
-                  <a
-                    href={project.githubUrl}
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded text-sm font-medium transition-colors"
-                  >
-                    GitHub
-                  </a>
+                  {project.githubUrl && (
+                    <a
+                      href={project.githubUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="bg-gray-700 hover:bg-gray-600 text-white px-4 py-2 rounded text-sm font-medium transition-colors"
+                    >
+                      GitHub
+                    </a>
+                  )}
                 </div>
               </div>
             </div>

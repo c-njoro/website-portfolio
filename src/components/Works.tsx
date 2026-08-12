@@ -29,7 +29,7 @@ const Works = () => {
                 <Image
                   width={500}
                   height={700}
-                  src="https://images.pexels.com/photos/8470841/pexels-photo-8470841.jpeg"
+                  src="/images/projects/tixflow.png"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
@@ -42,7 +42,7 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Real Estate Web App</p>
+                <p>Tixflow — Event Ticketing</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
@@ -51,7 +51,7 @@ const Works = () => {
               >
                 <a
                   target="_blank"
-                  href="https://real-estate-iota-teal.vercel.app"
+                  href="https://tixflow-smoky.vercel.app"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -81,7 +81,7 @@ const Works = () => {
                 <Image
                   width={500}
                   height={700}
-                  src="https://images.pexels.com/photos/3801439/pexels-photo-3801439.jpeg"
+                  src="/images/projects/eazybill.png"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
@@ -94,14 +94,14 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>POS Restaurant</p>
+                <p>eazyBill — ISP Platform</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <a target="blank" href="https://github.com/c-njoro/Hotel-POS">
+                <a target="_blank" href="https://eazy-bill-demo.vercel.app">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -137,7 +137,7 @@ const Works = () => {
                 <Image
                   width={500}
                   height={700}
-                  src="https://images.pexels.com/photos/230544/pexels-photo-230544.jpeg"
+                  src="/images/projects/fleet-tracking.png"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
@@ -150,14 +150,14 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>E commerce web app</p>
+                <p>Fleet Tracking Dashboard</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
                font-semibold uppercase tracking-wide rounded-full text-xs md:text-sm opacity-100 md:opacity-50"
                 style={{ transition: "all 500ms ease-in-out" }}
               >
-                <a target="blank" href="https://github.com/c-njoro/userend">
+                <a target="_blank" href="https://fleet-tracking-eight.vercel.app">
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
                     fill="none"
@@ -186,7 +186,7 @@ const Works = () => {
                 <Image
                   width={500}
                   height={700}
-                  src="https://images.pexels.com/photos/4549411/pexels-photo-4549411.jpeg"
+                  src="/images/projects/prohaul.png"
                   loading="lazy"
                   className="big-image w-full h-80 object-cover shadow-md"
                   alt="work image"
@@ -199,7 +199,7 @@ const Works = () => {
                   backgroundColor: "rgba(255, 192, 203, 0.607)",
                 }}
               >
-                <p>Personal Website</p>
+                <p>Kenya ProHaul Logistics</p>
               </div>
               <div
                 className="work-button absolute w-full h-16 flex flex-row items-center justify-center gap-5 mt-40
@@ -207,8 +207,8 @@ const Works = () => {
                 style={{ transition: "all 500ms ease-in-out" }}
               >
                 <a
-                  target="blank"
-                  href="https://github.com/c-njoro/website-portfolio"
+                  target="_blank"
+                  href="https://pro-haul-logistics.vercel.app"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"

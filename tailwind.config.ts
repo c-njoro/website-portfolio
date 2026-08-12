@@ -9,8 +9,8 @@ export default {
   theme: {
     extend: {
       fontFamily: {
-        body: ["Poppins"],
-        heading: ["Nunito"],
+        body: ["Poppins", "sans-serif"],
+        heading: ["Poppins", "sans-serif"],
       },
     },
   },
